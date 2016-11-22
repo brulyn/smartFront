@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SmartAVC</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:500" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/mystyles.css">
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="bg-video">
+      <video poster="img/bg_image_smartavc.jpg" id="bgvid" playsinline autoplay muted loop>
+        <!-- Consider adding another format here for compatibility -->
+        <source src="video/whatfield.mp4" type="video/mp4">
+      </video>
+		</div>
+		<div id="wrapper">
+			<!-- header-container -->
+			<div class="header-container">
+				<div class="quick-access">
+					<div class="welcome-main">
+						<p class="welcome-msg">Welcome to SmartAVC</p>
+						<div class="login-reg">
+							<ul class="nav nav-tabs">
+								<li><a href=""><span class="glyphicon glyphicon-user"></span> Join</a></li>
+								<li><a href="">Sign In</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="top-right-menu">
+						<ul class="nav nav-tabs">
+							<li><a href="">My Account</a></li>
+							<li><a href="">Manufacturers</a></li>
+							<li><a href="">My Cart</a></li>
+							<li><a href="">Checkout</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+				<div class="header">
+					<div class="header-logo">
+						<a href="index.html">
+							<img src="img/smartavc2.png" alt="logo">
+						</a>
+					</div>
+					<form class="form" id="search-mini-form" action="" method="">
+						<div class="form-search">
+							<div class="styleselect">
+								<select name="cat" id="cat">
+									<option value="">All Category</option>
+									<option value="13">Electronics</option>
+									<option value="47">Home Decor</option>
+									<option value="50">Kitchen Decor</option>
+									<option value="51">Office Decor</option>
+									<option value="54">Accessories</option>
+								</select>
+							</div>
+							<div class="search-box-top">
+								<input id="search" type="text" name="q" value-class="input-text" autocomplete="off">
+							</div>
+							<div class="search-btn">
+								<button type="submit" title="Search" class="btn btn-default">Go</button>
+							</div>
+							<div class="view-vendors">
+								<button type="submit" title="View vendors" class="btn btn-default">View All Vendors</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div><!-- end header-container -->
+			<div class="clearfix"></div>
+			<!-- side nav-bar -->
+			<div class="main-container">
+				<nav class="sidenav">
+					<div class="block">
+						<div class="left-menu-title">
+							<h3>Categories</h3>
+						</div>
+							<div class="v-nav-container">
+								<ul id="v-nav">
+										<div class="dropdown">
+											<li><a href="electronics.html" class="dropbtn">Electronics</a></li>
+											<div class="dropdown-content">
+												<h4>Electronics</h4>
+												<a href="">Android Accessories</a>
+												<a href="">Apple Accessories</a>
+												<a href="">Bluetooth Adapters</a>
+												<a href="">Mini DisplayPort Adapters</a>
+												<a href="">Docking Stations</a>
+												<a href="">HDMI Display Adapter</a>
+												<a href="">USB Display Adapters</a>
+												<a href="">USB Hubs</a>	
+											</div>
+										</div>
+
+										<div class="dropdown">
+											<li><a href="accessories.html" class="dropbtn">Accessories</a></li>
+											<div class="dropdown-content">
+												<h4>Accessories</h4>
+												<a href="">Art Prints</a>
+												<a href="">Bookmark</a>
+												<a href="">Button Pack</a>
+												<a href="">Button Pin</a>
+												<a href="">Waterproof Case</a>
+												<a href="">Magnets</a>
+												<a href="">Embroidered Patch</a>
+												<a href="">Vinyl Stickers</a>	
+												<a href="">Wristbands</a>
+												<a href="">Acrylic Charms</a>
+												<a href="">Shotgun Case</a>
+												<a href="">Laptop Sleeve</a>
+												<a href="">Belts</a>
+												<a href="">Bags</a>
+												<a href="">Photo Frame Key Chain</a>
+												<a href="">Photo Frame Luggage Tag</a>
+												<a href="">Beaded Curtains</a>
+												<a href="">Hand Painted Curtains</a>
+												<a href="">Chandeliers</a>
+											</div>
+										</div>
+
+										<div class="dropdown">
+											<li><a href="food-gourmet.html" class="dropbtn">Food &amp; Gourmet</a></li>
+											<div class="dropdown-content">
+												<h4>Food &amp; Gourmet</h4>
+												<a href="">Pasta, Pasta Sauce, Spreads</a>
+												<a href="">Pasta</a>
+												<a href="">Salsas</a>
+												<a href="">Dips</a>
+												<a href="">Soups</a>
+												<a href="">Himalayan Pink Salt</a>
+												<a href="">Natural Himalayan Salt Slabs</a>
+												<a href="">Jams, Preserves, Butter, and Desert toppings</a>	
+												<a href="">Jams</a>
+											</div>
+										</div>
+
+										<div class="dropdown">
+											<li><a href="fanmats.html" class="dropbtn">Teams &amp; Collegiate</a></li>
+											<div class="dropdown-content">
+												<h4>Teams &amp; Collegiate</h4>
+												<a href="">44" Round Mat</a>
+												<a href="">4x6 Rug</a>
+												<a href="">5x8 Rug</a>
+												<a href="">All Star</a>
+												<a href="">Carpet Car Mat 2-pc</a>
+												<a href="">Medallion Door Mat</a>
+												<a href="">Drink Mat</a>
+												<a href="">Fanbrand 2 Pack</a>	
+												<a href="">Fan Brands</a>
+												<a href="">Football Mat</a>
+												<a href="">Get a Grip</a>
+												<a href="">Get a Grip 2 Pack</a>
+												<a href="">Grill Mat</a>
+												<a href="">Mascot Mats</a>
+												<a href="">NBA Court Runner</a>
+												<a href="">Putting Green Mat</a>
+												<a href="">Runner</a>
+												<a href="">Starter Mat</a>
+												<a href="">Tailgater Mat</a>
+												<a href="">Team Carpet Tiles</a>
+												<a href="">Ulti-Mat</a>
+												<a href="">Yoga Mat</a>
+												<a href="">Roundball Mat</a>
+												<a href="">Heavy Duty Vinyl Cargo Mat</a>
+												<a href="">House Divided Mat</a>
+												<a href="">Mirror Cover</a>
+												<a href="">Vinyl Car Mat 2-pc</a>
+											</div>
+										</div>
+
+										<div class="dropdown">
+											<li><a href="health-beauty.html" class="dropbtn">Health &amp; Beauty</a></li>
+											<div class="dropdown-content">
+												<h4>Health &amp; Beauty</h4>
+												<a href="">Makeup Case</a>
+												<a href="">Himlayan Bath Salt</a>
+												<a href="">Himalayan Salt Scrub</a>
+												<a href="">Himalayan Salt Detox Blocks</a>
+												<a href="">Salt Deodorants</a>
+												<a href="">Salt Massage Stones</a>
+												<a href="">Salt Inhaler</a>
+												<a href="">Fisherman's Accessories</a>	
+												<a href="">Golfer's Accessories</a>
+												<a href="">Hunter's Gift</a>
+												<a href="">Handyman's Gift</a>
+												<a href="">Soap for Chefs</a>
+											</div>
+										</div>
+
+										<div class="dropdown">
+											<li><a href="" class="dropbtn">Home Décor</a></li>
+											<div class="dropdown-content">
+												<h4>Home Décor</h4>
+												<a href="">Home Fragrance</a>
+												<a href="">Primitives</a>
+												<a href="">Incense Burner</a>
+												<a href="">Wall Décor</a>
+												<a href="">Religious Products</a>
+												<a href="">Salt Lamps</a>
+												<a href="">Salt Candle Holders</a>
+											</div>
+										</div>
+
+										<div class="dropdown">
+											<li><a href="" class="dropbtn">Kitchen Décor</a></li>
+										</div>
+
+										<div class="dropdown">
+											<li><a href="" class="dropbtn">Office Décor</a></li>
+										</div>
+
+										<div class="dropdown">
+											<li><a href="" class="dropbtn">Pets Supplies &amp; Gifts</a></li>
+											<div class="dropdown-content">
+												<h4>Pets Supplies &amp; Gifts</h4>
+												<a href="">Everyday Gifts</a>
+												<a href="">Christmas Ornaments</a>
+												<a href="">Pet Apparel</a>
+												<a href="">Pet Treats</a>
+												<a href="">Ceramic Photo Frame Mug</a>
+												<a href="">Stainless Photo Mug</a>
+												<a href="">Photo Frame Key Chain</a>
+												<a href="">Photo Frame Luggage Tag</a>
+												<a href="">Key Chain</a>
+												<a href="">Pet Collars</a>
+											</div>
+										</div>
+
+										<div class="dropdown">
+											<li><a href="" class="dropbtn">Plush Toys</a></li>
+											<div class="dropdown-content">
+												<h4>Plush Toys</h4>
+												<a href="">Blankie Babies</a>
+												<a href="">Book Buddies</a>
+												<a href="">Blanket Pets with Minis</a>
+												<a href="">Blanket Pets</a>
+												<a href="">Storytime Pals</a>
+												<a href="">Slumber Pets</a>
+												<a href="">Christmas</a>
+												<a href="">Cute &amp; Sweet Pack</a>	
+												<a href="">Fun &amp; Games</a>
+												<a href="">Fun In The Sun</a>
+												<a href="">Get Well and Baby Gifts</a>
+												<a href="">New Releases</a>
+												<a href="">Romance</a>
+												<a href="">ZOOcational</a>
+											</div>
+										</div>
+
+										<div class="dropdown">
+												<li><a href="" class="dropbtn">Watches</a></li>
+										</div>
+
+										<div class="dropdown">
+												<li><a href="" class="dropbtn">Books</a></li>
+										</div>
+
+										<div class="dropdown">
+											<li><a href="" class="dropbtn">Jewelry</a></li>
+											<div class="dropdown-content">
+												<h4>Jewelry</h4>
+												<a href="">Jewelry</a>
+												<a href="">Necklace</a>
+												<a href="">Bracelet</a>
+												<a href="">Key Chain</a>
+											</div>
+										</div>
+
+										<div class="dropdown">
+												<li><a href="" class="dropbtn">Apparel</a></li>
+												<div class="dropdown-content">
+													<h4>Apparel</h4>
+													<a href="">Tunic</a>
+													<a href="">Dress</a>
+													<a href="">Short Dress</a>
+													<a href="">Blouse</a>
+													<a href="">Short Skirt</a>
+													<a href="">Long Dress</a>
+													<a href="">Top</a>
+												</div>
+										</div>
+
+										<div class="dropdown">
+											<li><a href="" class="dropbtn">Drinkware</a></li>
+											<div class="dropdown-content">
+												<h4>Drinkware</h4>
+												<a href="">Pet Series</a>
+												<a href="">Baby Series</a>
+												<a href="">Love Series</a>
+												<a href="">Family Series</a>
+												<a href="">Original Series</a>
+												<a href="">Artistic Creations</a>
+												<a href="">Vingo</a>
+												<a href="">Beer Buddy</a>	
+												<a href="">Pocket Bottles</a>
+												<a href="">The Cool Sack</a>
+												<a href="">Festa</a>
+												<a href="">ChillAerator</a>
+												<a href="">The Cool Sack - Neoprene</a>
+												<a href="">Silly Bottlez</a>
+												<a href="">Thirzt 2 Go</a>
+											</div>
+										</div>
+
+										<div class="dropdown">
+											<li><a href="" class="dropbtn">Games</a></li>
+											<div class="dropdown-content">
+												<h4>Games</h4>
+												<a href="">Family Games</a>
+												<a href="">Children Games</a>
+												<a href="">Trivia Games</a>
+												<a href="">Party Games</a>
+												<a href="">Novelty Games</a>
+												<a href="">Adult Puzzle</a>
+												<a href="">Easy Handling</a>
+												<a href="">Family Puzzle</a>	
+												<a href="">Children Puzzle</a>
+												<a href="">PROMOMAT</a>
+												<a href="">Mini Puzzles</a>
+												<a href="">Easy Handling Puzzles</a>
+											</div>
+										</div>
+
+										<div class="dropdown">
+											<li><a href="" class="dropbtn">Groovy Signs</a></li>
+											<div class="dropdown-content">
+												<h4>Groovy Signs</h4>
+												<a href="">Dance</a>
+												<a href="">Cheer</a>
+												<a href="">Gym - Tumbling</a>
+												<a href="">Skating</a>
+												<a href="">Sports</a>
+												<a href="">Girly</a>
+												<a href="">Nursery</a>
+												<a href="">Religious</a>	
+												<a href="">Boys</a>
+												<a href="">Newest Designs</a>
+											</div>
+										</div>
+
+										<div class="dropdown">
+											<li><a href="" class="dropbtn">Eyewear</a></li>
+											<div class="dropdown-content">
+												<h4>Eyewear</h4>
+												<a href="">Duck Dynasty Sunglasses</a>
+											</div>
+										</div>
+
+										<div class="dropdown">
+											<li><a href="" class="dropbtn">Plush Animals</a></li>
+											<div class="dropdown-content">
+												<h4>Plush Animals</h4>
+												<a href="">Christmas</a>
+												<a href="">Cute &amp; Sweet</a>
+												<a href="">Fun &amp; Games</a>
+												<a href="">Fun In The Sun</a>
+												<a href="">New Releases</a>
+												<a href="">Romance</a>
+												<a href="">ZOOcational</a>
+											</div>
+										</div>
+
+								</ul>
+							</div>
+					</div>
+				</nav>
+				<div class="main">
+					<!-- carousel -->
+				  <div class="carousel slide fade-carousel" data-ride="carousel" data-interval="4000" id="bs-carousel">
+
+				  <!-- Indicators -->
+				  <ol class="carousel-indicators">
+				    <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
+				    <li data-target="#bs-carousel" data-slide-to="1"></li>
+				    <li data-target="#bs-carousel" data-slide-to="2"></li>
+				    <li data-target="#bs-carousel" data-slide-to="3"></li>
+				  </ol>
+				  
+				  <!-- Wrapper for slides -->
+				  <div class="carousel-inner">
+				    <div class="item slides active">
+				      <div class="slide-1"></div>
+				      <div class="hero">
+				        <hgroup>
+				            <h1>Tomato</h1>        
+				            <h3>Rwanda's best tomatoes</h3>
+				        </hgroup>
+				        <a href="dreamHouse.html"><button class="btn btn-hero btn-lg" role="button">View all Products</button></a>
+				        <a href="login.html"><button class="btn btn-hero btn-lg" role="button">Order Now</button></a>
+				      </div>
+				    </div>
+				    <div class="item slides">
+				      <div class="slide-2"></div>
+				      <div class="hero">        
+				        <hgroup>
+				            <h1>Potatoes</h1>        
+				            <h3>Rwanda's best potatoes</h3>
+				        </hgroup>       
+				        <a href="dreamCar.html"><button class="btn btn-hero btn-lg" role="button">View all Products</button></a>
+				        <a href="login.html"><button class="btn btn-hero btn-lg" role="button">Order Now</button></a>
+				      </div>
+				    </div>
+				    <div class="item slides">
+				      <div class="slide-3"></div>
+				      <div class="hero">        
+				        <hgroup>
+				            <h1>Coffee</h1>        
+				            <h3>Rwanda's best coffee</h3>
+				        </hgroup>
+				        <a href="dreamWatch.html"><button class="btn btn-hero btn-lg" role="button">View all Products</button></a>
+				        <a href="login.html"><button class="btn btn-hero btn-lg" role="button">Order Now</button></a>
+				      </div>
+				    </div>
+				    <div class="item slides">
+				      <div class="slide-4"></div>
+				      <div class="hero">        
+				        <hgroup>
+				            <h1>Tea</h1>        
+				            <h3>Rwanda's finest tea</h3>
+				        </hgroup>       
+				        <a href="dreamHoliday.html"><button class="btn btn-hero btn-lg" role="button">View all Products</button></a>
+				        <a href="login.html"><button class="btn btn-hero btn-lg" role="button">Order Now</button></a>
+				      </div>
+				    </div>
+				  </div><!-- end corousel-inner --> 
+					</div><!-- end carousel -->
+					<div class="subscript-main">
+						<h3 class="subscription-txt">Enter your email for great Offers from smartAVC</h3>
+						<div class="subscription-form form">
+							<form id="newsletter-validate-details" action="" method="POST" >
+								<input id="email-input" type="text" name="email" title="Sign up for our newsletter">
+								<button class="signup-btn" type="submit" title="Subscribe">Sign Up</button>
+							</form>
+						</div>
+					</div>
+					<div class="whats-new-main">
+						<span class="whatsnew">What's New</span>
+						<span class="wholesale">on <span class="smartavc-color">smartAVC</span></span>
+						<span class="week">THIS WEEK</span>
+						<span class="manufacturet">
+							<a href="">View new Stock</a>
+						</span>
+						<span></span>
+					</div>
+					<div class="clearfix"></div><br>
+					<div class="product-grid row">
+						<div class="productgrid-item col-md-3">
+							<h2 class="product-name">AmbiEscents</h2>
+							<img src="img/ambiescents.jpg">
+							<p class="brief-description">
+								Rimports (USA) LLC is a manufacturing/distributing company that specializes in home-run products for mass mark <br><a href="">Read more »</a>
+							</p>
+						</div>
+					
+						<div class="productgrid-item col-md-3">
+							<h2 class="product-name">Zoobies</h2>
+							<img src="img/zoobies.png">
+							<p class="brief-description">
+								The Zoobies brand and concepts were created by two young brothers who shared a common desi	  <br><a href="">Read more »</a>
+							</p>
+						</div>
+
+						<div class="productgrid-item col-md-3">
+							<h2 class="product-name">E&amp;S Pets</h2>
+							<img src="img/espets.png">
+							<p class="brief-description">
+								Manufacturer of pet themed gifts and ornaments <br><a href="">Read more »</a>
+							</p>
+						</div>
+
+						<div class="productgrid-item col-md-3">
+							<h2 class="product-name">Stylogy.biz</h2>
+							<img src="img/stylogy.png">
+							<p class="brief-description">
+								INTRODUCTION Stylogy was launched in 2008 as a fashion and lifestyle concept with the aim to introduce un <br><a href="">Read more »</a>
+							</p>
+						</div>
+
+						<div class="productgrid-item col-md-3">
+							<h2 class="product-name">Pearson's Simple Primitives</h2>
+							<img src="img/pearson.png">
+							<p class="brief-description">
+								So this year with longtime artists such as Jonie Martin and Joyce Napotnick, she welcome <br><a href="">Read more »</a>
+							</p>
+						</div>
+
+						<div class="productgrid-item col-md-3">
+							<h2 class="product-name">Designed 4 Life</h2>
+							<img src="img/designed4life.png">
+							<p class="brief-description">
+								Designed 4 Life and our parent company WBM International lease the rights to mine in t <br><a href="">Read more »</a>
+							</p>
+						</div>
+
+						<div class="productgrid-item col-md-3">
+							<h2 class="product-name">Danish Design</h2>
+							<img src="img/danishdesign.png">
+							<p class="brief-description">
+								Rimports (USA) LLC is a manufacturing/distributing company that specializes in home-run products for mass mark <br><a href="">Read more »</a>
+							</p>
+						</div>
+
+						<div class="productgrid-item col-md-3">
+							<h2 class="product-name">Dicapac America</h2>
+							<img src="img/dicapac.png">
+							<p class="brief-description">
+								Rimports (USA) LLC is a manufacturing/distributing company that specializes in home-run products for mass mark <br><a href="">Read more »</a>
+							</p>
+						</div>
+
+						<div class="productgrid-item col-md-3">
+							<h2 class="product-name">JBJ Trading</h2>
+							<img src="img/jbjtrading.png">
+							<p class="brief-description">
+								Rimports (USA) LLC is a manufacturing/distributing company that specializes in home-run products for mass mark <br><a href="">Read more »</a>
+							</p>
+						</div>
+
+						<div class="productgrid-item col-md-3">
+							<h2 class="product-name">Just Case USA</h2>
+							<img src="img/justcase.png">
+							<p class="brief-description">
+								Rimports (USA) LLC is a manufacturing/distributing company that specializes in home-run products for mass mark <br><a href="">Read more »</a>
+							</p>
+						</div>
+
+						<div class="productgrid-item col-md-3">
+							<h2 class="product-name">Ruff Ruff &amp; Meow</h2>
+							<img src="img/ruffruff.png">
+							<p class="brief-description">
+								Rimports (USA) LLC is a manufacturing/distributing company that specializes in home-run products for mass mark <br><a href="">Read more »</a>
+							</p>
+						</div>
+
+						<div class="productgrid-item col-md-3">
+							<h2 class="product-name">Sports Licensing Solutions, LLC</h2>
+							<img src="img/sportslicensing.png">
+							<p class="brief-description">
+								Rimports (USA) LLC is a manufacturing/distributing company that specializes in home-run products for mass mark <br><a href="">Read more »</a>
+							</p>
+						</div>
+					</div><!-- end of the product grid -->
+					<div class="clearfix"></div><br><br>
+				</div><!-- end main -->
+			</div><!-- end main-container -->
+		</div><!-- end wrapper -->
+</div><!-- end container-fluid -->
+
+
+ <!-- jQuery & Bootstrap plugins)-->
+ <script  src="js/jquery-3.1.1.min.js"></script>
+ <script  src="js/bootstrap.min.js"></script>
+ <script  src="js/myScript.js"></script>
+</body>
+</html>
